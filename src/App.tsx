@@ -1,4 +1,12 @@
+import Header from "./components/layouts/Header";
+import Hero from "./components/layouts/Hero";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Header />
+      <Hero />
+    </>
+  );
 };
 export default App;
