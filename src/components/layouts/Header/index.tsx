@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Logo from "../../Logo";
 import MobileNav from "./MobileNav";
 import Nav from "./Nav";
@@ -14,7 +15,10 @@ const Header = () => {
 
         <div className="hidden lg:block space-x-4">
           <button className="btn btn-active">Pesan Sekarang</button>
-          <button className="btn btn-neutral">Login</button>
+
+          <Link to="/auth/login" className="btn btn-neutral">
+            Login
+          </Link>
         </div>
 
         {/* Mobile Nav */}
