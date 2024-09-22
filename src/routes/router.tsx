@@ -4,7 +4,8 @@ import AuthLayout from "../layouts/AuthLayout";
 import Login from "../pages/auth/Login";
 import Register from "../pages/auth/Register";
 import RootLayout from "../layouts/RootLayout";
-import Order from "../pages/Order";
+import Orders from "../pages/Orders";
+import OrderDetail from "../pages/Orders/OrderDetail";
 
 const router = createBrowserRouter([
   {
@@ -16,8 +17,12 @@ const router = createBrowserRouter([
         element: <App />,
       },
       {
-        path: "/order",
-        element: <Order />,
+        path: "/order-courses",
+        element: <Orders />,
+      },
+      {
+        path: "/course-detail/:id",
+        element: <OrderDetail />,
       },
     ],
   },
