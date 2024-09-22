@@ -1,12 +1,6 @@
-import Header from "./components/layouts/Header";
-import Hero from "./components/layouts/Hero";
+import Home from "./pages/Home";
 
 const App = () => {
-  return (
-    <>
-      <Header />
-      <Hero />
-    </>
-  );
+  return <Home />;
 };
 export default App;
