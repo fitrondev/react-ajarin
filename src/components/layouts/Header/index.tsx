@@ -14,7 +14,7 @@ const Header = () => {
         </div>
 
         <div className="hidden lg:block space-x-4">
-          <Link to="/order">
+          <Link to="/order-courses">
             <button className="btn btn-active">Pesan Sekarang</button>
           </Link>
 
